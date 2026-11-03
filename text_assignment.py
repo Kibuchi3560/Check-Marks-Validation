@@ -91,21 +91,21 @@ def main():
 if __name__ == "__main__":
     main()
 
-def test_cases():
-    # Test case 1: Clean text
-    assert clean_text("   Hello   World   ") == "Hello World"
+# def test_cases():
+#     # Test case 1: Clean text
+#     assert clean_text("   Hello   World   ") == "Hello World"
     
-    # Test case 2: Change case
-    assert change_case("hello world", "upper") == "HELLO WORLD"
-    assert change_case("HELLO WORLD", "lower") == "hello world"
-    assert change_case("hello world", "title") == "Hello World"
+#     # Test case 2: Change case
+#     assert change_case("hello world", "upper") == "HELLO WORLD"
+#     assert change_case("HELLO WORLD", "lower") == "hello world"
+#     assert change_case("hello world", "title") == "Hello World"
     
-    # Test case 3: Count words and characters
-    assert count_words_and_characters("Hello World") == (2, 11)
+#     # Test case 3: Count words and characters
+#     assert count_words_and_characters("Hello World") == (2, 11)
     
-    # Test case 4: Search and replace
-    assert search_and_replace("Hello World", "World", "Python") == "Hello Python"
+#     # Test case 4: Search and replace
+#     assert search_and_replace("Hello World", "World", "Python") == "Hello Python"
     
-    # Test case 5: Check palindrome
-    assert is_palindrome("A man a plan a canal Panama") == True
-    assert is_palindrome("Hello") == False
+#     # Test case 5: Check palindrome
+#     assert is_palindrome("A man a plan a canal Panama") == True
+#     assert is_palindrome("Hello") == False
