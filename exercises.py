@@ -111,6 +111,7 @@ def text_reformatting(text):
     print(f"Reformatted text: {'|'.join(cleaned_words)}")
 
 def palindrome_checker(text):
+    
 # Limitations: The current implementation only ignores spaces and converts the text to lowercase.
 # It does not ignore punctuation or special characters, which may affect the palindrome check.
 # For example, "A man, a plan, a canal: Panama" would not be recognized as a palindrome due to the punctuation.
